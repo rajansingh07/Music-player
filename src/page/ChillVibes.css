@@ -8,7 +8,6 @@
   position: relative;
 }
 
-/* Ambient Background Animation */
 .ambient-background {
   position: fixed;
   top: 0;
@@ -65,7 +64,6 @@
   }
 }
 
-/* Header */
 .chill-header {
   position: sticky;
   top: 0;
@@ -97,7 +95,6 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* Hero Section */
 .chill-hero {
   position: relative;
   padding: 48px 32px;
@@ -139,7 +136,6 @@
   flex-wrap: wrap;
 }
 
-/* Mood Section */
 .mood-section {
   padding: 32px 32px 16px;
   z-index: 1;
@@ -209,7 +205,6 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Mood Badges */
 .mood-badge {
   display: inline-block;
   padding: 4px 12px;
@@ -297,7 +292,6 @@
   border: 1px solid rgba(239, 68, 68, 0.3);
 }
 
-/* Filter Button */
 .filter-btn {
   display: flex;
   align-items: center;
@@ -317,7 +311,6 @@
   color: white;
 }
 
-/* Chill Table */
 .chill-table .th-mood {
   width: 120px;
 }
@@ -326,7 +319,6 @@
   padding: 12px 8px;
 }
 
-/* Recommended Section */
 .recommended-section {
   padding: 32px;
   margin-top: 16px;
@@ -419,7 +411,6 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Footer Mood Tags */
 .playlist-footer {
   padding: 24px 32px;
   margin: 0 32px 32px;
@@ -452,7 +443,6 @@
   color: white;
 }
 
-/* Player Bar */
 .chill-player-bar {
   position: sticky;
   bottom: 0;
@@ -489,7 +479,6 @@
   border-radius: 10px;
 }
 
-/* Responsive */
 @media (max-width: 1280px) {
   .recommended-grid {
     grid-template-columns: repeat(3, 1fr);
